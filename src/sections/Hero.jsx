@@ -22,17 +22,26 @@ const Hero = () => {
               Buy Pinksale
             </button>
           </div>
+          <div className="w-full flex justify-center mt-8 gap-x-3">
+            <img src="/social-media/telegram-white.svg" className='cursor-pointer' />
+            <img src="/social-media/twitter-white.svg" className='cursor-pointer' />
+          </div>
           <div className="hidden sm:flex flex-col ">
-            <p className="text-[#E8BA4B] text-[0.8vw] sm:text-base  mt-3 mb-2">Contract Address</p>
-            <p className='break-words'>0xfb66321d7c674995dfcc2cb67a30bc978dc862ad</p>
+            <p className="text-[#E8BA4B] text-[0.8vw] sm:text-base  mt-3 mb-2">
+              Contract Address
+            </p>
+            <p className="break-words">
+              0xfb66321d7c674995dfcc2cb67a30bc978dc862ad
+            </p>
           </div>
         </div>
       </div>
       <div className="flex sm:hidden w-full justify-center items-center flex-col pb-20 mt-5">
-            <p className="text-[#E8BA4B] mt-3 mb-2 text-center">Contract Address</p>
-            <p className='text-center text-white break-words w-full'>0xfb66321d7c674995dfcc2cb67a30bc978dc862ad</p>
-          </div>
-
+        <p className="text-[#E8BA4B] mt-3 mb-2 text-center">Contract Address</p>
+        <p className="text-center text-white break-words w-full">
+          0xfb66321d7c674995dfcc2cb67a30bc978dc862ad
+        </p>
+      </div>
     </div>
   )
 }

@@ -8,14 +8,17 @@ import Tokenomics from "./sections/Tokenomics";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-[#191A19]">
       <Navbar />
+      <div className="pt-[85px] max-w-6xl mx-auto px-5">
       <Hero />
       <About />
       <Tokenomics />
       <Partners />
       <Support />
       <Footer />
+
+      </div>
     </div>
   );
 }
